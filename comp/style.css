@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    background: #007399
+}
+
+[class^=col] {
+    background: #fff;
+    margin-top: 1em;
+    border-radius: 5px;
+    padding: .25em 1em;
+}
+
+.col-md-6 {
+    min-height: 275px
+}
+
+.col-md-6:nth-child(odd) {
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #007399;
+}
+
+.col-md-6:nth-child(even) {
+    border-radius: 0 5px 5px 0
+}
+
+
+body {
+    color: #00537b;
+    font-size: 1.6em;
+    background-color: transparent;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.page-header,
+.position {
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(8, 65, 104, .75) 0, rgba(9, 65, 104, .75) 1%, #46718e 100%);
+    padding: 1em
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    line-height: 1.6em;
+    border-bottom: 1px solid #007399;
+    margin-bottom: 1em;
+}
+
+.omega {
+    color: rgb(219, 23, 2);
+    text-shadow: 0 0 3px #000
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    border-bottom: 0;
+    margin: 0;
+}
+
+p {
+    line-height: 1.6em
+}
+.card{
+    margin: auto; 
+}
